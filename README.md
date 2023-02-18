@@ -19,12 +19,13 @@ This repository contains the code for a simple web application that allows stude
 * Alert : This website uses disposable Alter prompt using bootstrap
 
 # Release History
-**jsonPowerDB**
+**JsonPowerDB**
 Version: 2.0
 
-Execute API
+**Execute API**
 
-'''
+```
+
 var baseUrl = "http://api.login2explore.com:5577";
 function executeCommand(reqString, apiEndPointUrl) {
     var url = baseUrl + apiEndPointUrl;
@@ -38,10 +39,12 @@ function executeCommand(reqString, apiEndPointUrl) {
     });
     return jsonObj;
 }
-'''
 
-Create a PUT Request String
-'''
+```
+
+**Create a PUT Request String**
+
+```
 function createPUTRequest(connToken, jsonObj, dbName, relName) {
     var putRequest = "{\n"
             + "\"token\" : \""
@@ -58,6 +61,6 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
             + "}";
     return putRequest;
 }
-'''
+```
 
 # Screenshots
