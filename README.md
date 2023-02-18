@@ -62,5 +62,3 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
     return putRequest;
 }
 ```
-
-# Screenshots
